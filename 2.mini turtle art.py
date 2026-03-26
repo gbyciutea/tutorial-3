@@ -6,7 +6,7 @@ bgcolor("blue")
 pensize(2)
 n = 100
 h = 0
-for i in range(120):
+for i in range(90):
     for i in range(4):
         color(hsv_to_rgb(h, 1, 1))
         h += 0.003
